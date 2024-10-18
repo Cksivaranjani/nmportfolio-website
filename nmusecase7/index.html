@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-toggle">☰</div>
+    <nav id="mobile-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="slideshow-container">
+        <img class="slide active" src="about-us-business-team-hands-260nw-446870920.webp" alt="Image 1">
+        <img class="slide" src="person1.jpeg" alt="Image 2">
+        <img class="slide" src="person2.png" alt="Image 3">
+    </div>
+    <button onclick="nextSlide()">Next</button>
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <button type="submit">Submit</button>
+    </form>
+    <h1 id="greeting"></h1>
+    <script src="script.js"></script>
+</body>
+</html>

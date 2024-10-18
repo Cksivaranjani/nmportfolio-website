@@ -1,0 +1,24 @@
+#content {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.new-element {
+    background-color: lightblue;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+/* Initial styles for the title */
+#title {
+    font-size: 2rem;
+    color: black;
+    cursor: pointer; /* Ensures it looks clickable */
+}
+
+/* Styles that will be toggled */
+.highlight {
+    background-color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
